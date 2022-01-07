@@ -3,26 +3,29 @@
     --fg-color: #000;
 }
 
-.pfp-image {
+.column-left {
     float: left;
     padding-right: 25px;
 }
 
-.pfp-image img {
+.column-left img {
     display: block;
     margin: auto;
 
-    /* width: 20%; */
-    max-width: 400px;
+    max-width: 240px;
 
     border-radius: 50%;
     background-color: var(--fg-color);
     padding: 6px;
 }
 
-.max-width {
+.column-right {
     float: left;
     max-width: 400px;
+}
+
+.further-info {
+    float: left;
 }
 
 .RIP {
