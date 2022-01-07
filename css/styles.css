@@ -3,10 +3,17 @@
     --fg-color: #000;
 }
 .pfp-image img {
-    width: 20%;
     display: block;
     margin: auto;
+
+    width: 20%;
+    max-width: 400px;
+
     border-radius: 50%;
     background-color: var(--fg-color);
     padding: 6px;
+}
+
+.RIP {
+    color: gray;
 }
