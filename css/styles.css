@@ -1,8 +1,8 @@
 :root {
     --bg-color: #4c566a;
     --fg-color: #e5e9f0;
+    --fg-pop: #88c0d0;
     --pop-color: #d08770;
-    --subtle-color: #88c0d0;
     --font: 'Roboto Mono', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-size: 16px;
 }
@@ -14,6 +14,10 @@ body {
     background-color: var(--bg-color);
     margin-bottom: 4rem;
     padding: .5rem;
+}
+
+h1, h2, h3 {
+    color: var(--fg-pop);
 }
 
 header, main, footer {
@@ -63,6 +67,10 @@ footer p {
     text-align: right;
 }
 
+foot span.bigflex {
+    font-family: 'Roboto Mono', monospace;
+}
+
 .RIP {
-    color: var(--subtle-color);
+    color: var(--fg-pop);
 }
