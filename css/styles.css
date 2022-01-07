@@ -2,16 +2,27 @@
     --bg-color: #fff;
     --fg-color: #000;
 }
+
+.pfp-image {
+    float: left;
+    padding-right: 25px;
+}
+
 .pfp-image img {
     display: block;
     margin: auto;
 
-    width: 20%;
+    /* width: 20%; */
     max-width: 400px;
 
     border-radius: 50%;
     background-color: var(--fg-color);
     padding: 6px;
+}
+
+.max-width {
+    float: left;
+    max-width: 400px;
 }
 
 .RIP {
