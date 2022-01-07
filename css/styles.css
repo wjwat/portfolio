@@ -21,18 +21,18 @@ h1, h2, h3 {
     color: var(--fg-pop);
 }
 
-header, main, footer {
+div.header, div.main, div.footer {
     margin: 0 auto;
     max-width: 50rem;
     width: 100%;
 }
 
-header {
+div.header {
     padding-bottom: 1rem;
     border-bottom: 2px solid var(--fg-color);
 }
 
-header img {
+div.header img {
     display: block;
     margin: auto;
 
@@ -43,15 +43,15 @@ header img {
     padding: 5px;
 }
 
-header img:hover {
+div.header img:hover {
     background-color: var(--big-pop);
 }
 
-header h1 {
+div.header h1 {
     text-align: center;
 }
 
-main {
+div.main {
     margin-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -77,27 +77,30 @@ ol li::marker {
     color: var(--big-pop);
 }
 
-footer {
+div.footer {
     border-top: 2px solid var(--fg-color);
 }
 
-footer p {
+div.footer p {
     text-align: right;
 }
 
-footer span.bigflex {
+div.footer span.bigflex {
     font-family: 'Roboto Mono', monospace;
 }
 
-footer span.bigflex:hover:before {
+div.footer span.bigflex:hover:before {
     content: "(FLEX TIME!)> ";
     color: var(--fg-color);
 }
 
-footer span.bigflex:hover {
+div.footer span.bigflex:hover {
     color: var(--big-pop);
 }
 
 .RIP {
     color: var(--fg-pop);
+    position: relative;
+    top: -0.5em;
+    font-size: 60%;
 }
