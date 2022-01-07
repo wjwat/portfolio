@@ -76,6 +76,11 @@ footer span.bigflex {
     font-family: 'Roboto Mono', monospace;
 }
 
+footer span.bigflex:hover:before {
+    content: "(FLEX TIME!)> ";
+    color: var(--fg-color);
+}
+
 footer span.bigflex:hover {
     color: var(--big-pop);
 }
