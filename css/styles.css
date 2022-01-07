@@ -64,6 +64,19 @@ ul li::marker {
     color: var(--big-pop);
 }
 
+/*
+  hacky & stupid but i'm not sure how to align
+  the start of my ol, with the markers of my ul
+ */
+ol {
+    padding-inline-start: 3.3em;
+}
+
+ol li::marker {
+    font-weight: bold;
+    color: var(--big-pop);
+}
+
 footer {
     border-top: 2px solid var(--fg-color);
 }
