@@ -27,4 +27,4 @@ Have you ever wanted to know a small bit of information about me? You've come to
 
 MIT License
 
-Copyright (c) 2022 William Watkins
+Copyright (c) 2022 William Watkins ᕙ(⇀‸↼‶)ᕗ
