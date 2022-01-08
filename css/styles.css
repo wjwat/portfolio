@@ -8,6 +8,15 @@
     --font-size: 16px;
 }
 
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-color: #e5e9f0;
+        --fg-color: #4c566a;
+        --fg-pop: #bf616a;
+        --big-pop: #8fbcbb;
+    }
+}
+
 body {
     font-family: var(--font);
     font-size: var(--font-size);
@@ -36,7 +45,7 @@ div.header img {
     display: block;
     margin: auto;
 
-    max-width: 30%;
+    max-width: 25%;
 
     border-radius: 50%;
     background-color: var(--fg-color);
@@ -58,6 +67,10 @@ div.main {
 
 a {
     color: var(--pop-color);
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 ul li::marker {
@@ -96,6 +109,7 @@ div.footer span.bigflex:hover:before {
 
 div.footer span.bigflex:hover {
     color: var(--big-pop);
+    font-weight: bold;
 }
 
 .RIP {
