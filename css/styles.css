@@ -104,3 +104,9 @@ div.footer span.bigflex:hover {
     top: -0.5em;
     font-size: 60%;
 }
+
+#floating-sando {
+    max-width: 100px;
+    float: left;
+    margin-right: 1rem;
+}
